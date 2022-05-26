@@ -8,10 +8,13 @@ inputs:
     default: 'main,release,feature,devops,hotfix,fix,dependabot'
   payload:
     required: false
-    description: 'Add list branch validate, separeted with ,'
+    description: 'Create payload to slack message'
   channel_id:
     required: false
-    description: 'Add list branch validate, separeted with ,'
+    description: 'Add chanel id slack'
 runs:
   using: 'node16'
   main: 'dist/index.js'
+branding:
+  icon: 'arrow-right-circle'  
+  color: 'blue'
