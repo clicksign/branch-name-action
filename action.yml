@@ -1,4 +1,4 @@
-name: 'Branch Name'
+name: 'Branch Name Default'
 description: 'Get incorrect branch name'
 author: 'Team Devops'
 inputs:
