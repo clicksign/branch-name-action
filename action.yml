@@ -5,7 +5,7 @@ inputs:
   allowed_branch_list:
     required: false
     description: 'Add list branch validate, separeted with ,'
-    default: 'main,release,feature,devops,hotfix,fix,dependabot,revert'
+    default: 'main,release,feature,devops,hotfix,fix,dependabot,revert,story,exp'
   payload:
     required: false
     description: 'Create payload to slack message'
